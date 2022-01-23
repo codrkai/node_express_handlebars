@@ -19,22 +19,3 @@ To run the webserver:
 ```javascript
 npm start
 ```
-
-Layout:
-
-/root/app.js
-
-/components
-    - hbsHelpers.js
-
-/routes
-    - index.js
-    - movies.js
-
-/views
-    - /partials
-        - footer.hbs
-        - header.hbs
-    - index.hbs
-    - layout.hbs
-    - movies.hbs
