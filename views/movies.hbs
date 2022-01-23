@@ -1,0 +1,15 @@
+<div class="movies-container">
+    <div class="box">
+        <div class="photo"><img src="{{data.img}}"></div>
+        <div class="info">
+            <h1>{{data.title}}</h1>
+            <br><br>
+            {{{data.desc}}}
+            <br><br>
+            {{#each data.extra}}
+                <p>Released in {{year_released}}</p>
+                <p>Filmed in {{film_location}}</p>
+            {{/each}}
+        </div>
+    </div>
+</div>
